@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- <img src="img/banner.png" alt="main pic of this website" class="header"> -->
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <span class="material-icons-outlined" onclick="hidemenu()">
+                    close
+                    </span>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <span class="material-icons-outlined" onclick="showmenu()">
+                menu
+                </span>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis facilis consectetur repellendus cum voluptate nesciunt unde repudiandae itaque dicta reprehenderit necessitatibus eveniet ducimus ipsum reiciendis accusantium iste
+                    ab fugiat et voluptatem, laudantium ullam nulla obcaecati. Error doloremque voluptas sunt! Eos sequi, fuga laboriosam ea consectetur deleniti consequuntur cupiditate fugit magnam quaerat iste mollitia natus ipsam quasi libero ad repellendus
+                    fugiat accusamus! Exercitationem dolores itaque nesciunt suscipit dignissimos, natus vel molestias dolorem excepturi quam placeat!</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut amet sed similique, consequuntur libero sapiente? Sequi eveniet, quasi, maxime dolorem in eligendi numquam debitis illo maiores enim qui a, beatae repellat corporis nemo? Distinctio
+                    voluptas ipsum amet. Id ex voluptatibus magni illo debitis rem aspernatur aut officia! Aut, obcaecati ratione nobis molestiae fuga, aliquam accusamus laudantium explicabo dolores tempore saepe hic reprehenderit, vel sed pariatur? Expedita
+                    eveniet nihil modi, explicabo quibusdam possimus perferendis veniam vel provident assumenda aliquid quaerat iste? Perspiciatis, voluptates. Velit deleniti dolores rerum nemo molestiae facere ducimus neque eum quaerat veritatis iste
+                    nisi, enim ipsam blanditiis quam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, a repudiandae. Et delectus ratione optio, sed hic maxime soluta rem incidunt laudantium reprehenderit doloribus nemo nesciunt aspernatur voluptatibus ipsam voluptas tenetur vel.
+                    Asperiores laborum dolore pariatur ad dolorum fugit voluptatibus hic libero aperiam quae, error cumque nam, perferendis tenetur necessitatibus aliquid magni, vel porro praesentium officia. Possimus quae obcaecati libero cum? At delectus,
+                    ut vero odit qui, necessitatibus vitae nisi in, maiores tempora doloribus. Officiis necessitatibus culpa ipsam ex error quod nihil, tempore facere molestiae neque ab quaerat quas velit libero modi quis nesciunt? Sapiente, harum totam?
+                    Obcaecati quasi similique nostrum exercitationem.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi totam nemo quas laborum nobis quis cumque architecto nisi eligendi iure perferendis, placeat perspiciatis sapiente expedita pariatur explicabo reiciendis quo temporibus eos
+                    facere voluptas. Vitae autem vero sunt reiciendis? Non, architecto! Unde dolores pariatur accusamus fugit.</p>
+            </div>
+            <section class="box">
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                </div>
+
+                <div class="categories">
+                    <span>Busness Analytics -32</span><br>
+                    <span>Data Science -62</span><br>
+                    <span>Machine Learning -63</span><br>
+                    <span>Computer Science -108</span><br>
+                    <span>python Developer -120</span>
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Minus libero, ducimus dolorum eligendi rerum tempore.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> </i> By Amdad Sarkar</p>
+    </section>
+
+
+
+    <!-- javascript for toggle manu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
